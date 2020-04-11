@@ -10,7 +10,7 @@ def github_content(content1, head, tail):
         if content[_] == head:
             count_2, count_1 = _, count_2
             print(content[count_1:count_2])
-    print(content[count_2:_])
+    print(content[count_2:_+1])
     
 if __name__ == "__main__":
     content1 = input("Please Input Your Content:")
