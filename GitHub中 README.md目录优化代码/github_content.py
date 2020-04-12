@@ -7,7 +7,7 @@ def github_content(content1, head, tail):
     n = len(content)
     print('Standard Content:')
     for _ in range(n):
-        if content[_] == head:  # 以头部为切割点
+        if content[_] == head:  # 以头部为分割点
             count_2, count_1 = _, count_2    # 位置指针的值随着位置而变化
             print(content[count_1:count_2])  # 输出每一段
     print(content[count_2:_+1]) # 输出最后一段
